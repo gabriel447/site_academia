@@ -1,0 +1,5 @@
+1- responsividade
+
+2- hover dos botões
+
+3- fade ou dellay no scrool dos links
