@@ -12,7 +12,7 @@
 
 <body>
     <!-- nav -->
-    <nav class=" navbar m-0 bg-success">
+    <nav id="navegacao" class="navbar m-0">
         <div>
             <a class="navbar-brand p-4">
                 <img src="./src/logo.png" width="100" height="100">
@@ -21,16 +21,16 @@
         <div class="pt-3">
             <ul style="list-style: none;">
                 <li class="list-group-horizontal p-3">
-                    <a class="text-white text-decoration-none p-3" style="font-size: x-large; font-weight: bold;"
-                        href="">Inicio</a>
-                    <a class="text-white text-decoration-none p-3" style="font-size: x-large; font-weight: bold;"
-                        href="">Atividades</a>
-                    <a class="text-white text-decoration-none p-3" style="font-size: x-large; font-weight: bold;"
-                        href="">Planos</a>
-                    <a class="text-white text-decoration-none p-3" style="font-size: x-large; font-weight: bold;"
-                        href="">Contato</a>
-                    <a class="text-white text-decoration-none p-3" style="font-size: x-large; font-weight: bold;"
-                        href="">Sobre</a>
+                    <a class="text-white text-decoration-none p-3" style="font-size: x-large; font-weight: bold; cursor: pointer;"
+                        href="index.html">Inicio</a>
+                    <a class="text-white text-decoration-none p-3" style="font-size: x-large; font-weight: bold; cursor: pointer;"
+                        onclick="window.scroll(0, 715).fadeOut()" >Atividades</a>
+                    <a class="text-white text-decoration-none p-3" style="font-size: x-large; font-weight: bold; cursor: pointer;"
+                        onclick="window.scroll(0, 1270).fadeOut()">Planos</a>
+                    <a class="text-white text-decoration-none p-3" style="font-size: x-large; font-weight: bold; cursor: pointer;"
+                        onclick="window.scroll(0, 1820).fadeOut()">Contato</a>
+                    <a class="text-white text-decoration-none p-3" style="font-size: x-large; font-weight: bold; cursor: pointer;"
+                        onclick="window.scroll(0, 2800).fadeOut()">Sobre</a>
                 </li>
             </ul>
         </div>
@@ -43,7 +43,7 @@
             <h1 class="text-white">Não deixe pra amanhã, o que você pode treinar hoje!</h1>
         </div>
         <div class="aproveite">
-            <a href="#" class="btn text-white" style="background-color:rgb(22, 181, 22);">Aproveite</a>
+            <a href="#" class="btn text-white bg-success">Aproveite</a>
         </div>
     </div>
     <!-- carousel -->
@@ -81,7 +81,7 @@
                     <p class="card-text">Com suporte a texto embaixo, que funciona como uma introdução a um conteúdo
                         adicional.</p>
                     <h2 class="p-4" style="font-family: Arial;">R$99,00</h2>
-                    <a href="#" class="btn text-white" style="background-color: rgb(33, 180, 33);">Aproveite</a>
+                    <a href="#" class="btn text-white bg-success">Aproveite</a>
                 </div>
             </div>
         </div>
@@ -92,7 +92,7 @@
                     <p class="card-text">Com suporte a texto embaixo, que funciona como uma introdução a um conteúdo
                         adicional.</p>
                     <h2 class="p-4" style="font-family: Arial;">R$289,00</h2>
-                    <a href="#" class="btn text-white" style="background-color: rgb(33, 180, 33);">Aproveite</a>
+                    <a href="#" class="btn text-white bg-success">Aproveite</a>
                 </div>
             </div>
         </div>
@@ -103,7 +103,7 @@
                     <p class="card-text">Com suporte a texto embaixo, que funciona como uma introdução a um conteúdo
                         adicional.</p>
                     <h2 class="p-4" style="font-family: Arial;">R$549,00</h2>
-                    <a href="#" class="btn text-white" style="background-color: rgb(33, 180, 33);">Aproveite</a>
+                    <a href="#" class="btn text-white bg-success">Aproveite</a>
                 </div>
             </div>
         </div>
@@ -114,7 +114,7 @@
                     <p class="card-text">Com suporte a texto embaixo, que funciona como uma introdução a um conteúdo
                         adicional.</p>
                     <h2 class="p-4" style="font-family: Arial;">R$1099,00</h2>
-                    <a href="#" class="btn text-white" style="background-color: rgb(33, 180, 33);">Aproveite</a>
+                    <a href="#" class="btn text-white bg-success">Aproveite</a>
                 </div>
             </div>
         </div>
@@ -200,7 +200,6 @@
         <h5 class="text-white">Todos os direitos reservados</h5>
     </div>
     <!-- rodapé -->
-
 </body>
-
+<script src="./js/scripts.js"></script>
 </html>

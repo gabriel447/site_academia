@@ -6,6 +6,13 @@
     overflow-x: hidden;
 }
 
+#navegacao {
+    width: 100%;
+    /* position:fixed; */
+    background: rgb(0,105,62);
+    background: linear-gradient(180deg, rgba(0,105,62,1) 16%, rgba(23,175,113,1) 95%);
+}
+
 /* center */
 
 .bg {
